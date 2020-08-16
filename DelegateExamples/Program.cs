@@ -6,6 +6,8 @@ namespace DelegateExamples
     {
         static void Main(string[] args)
         {
+            SimpleDelegate.Run();
+            
             Console.ReadLine();
         }
     }
