@@ -8,6 +8,10 @@ namespace DelegateExamples
         {
             SimpleDelegate.Run();
             
+            Console.WriteLine(new string('-', 40));
+            
+            OperationDelegate.Run();
+            
             Console.ReadLine();
         }
     }
