@@ -12,6 +12,8 @@ namespace DelegateExamples
             
             OperationDelegate.Run();
             
+            Console.WriteLine(new string('-', 40));
+            
             Console.ReadLine();
         }
     }
