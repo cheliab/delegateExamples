@@ -18,6 +18,12 @@ namespace DelegateExamples
             Operation operationAdd = Add;
             var resOp = operationAdd.Invoke(2, 3);
             Console.WriteLine(resOp);
+            
+            // Пример пустого делегата
+            Message nullExaple = null;
+            nullExaple?.Invoke();
+            
+            // nullExaple(); // Возникнет исключение
         }
 
         private static void Hello()
