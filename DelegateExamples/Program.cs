@@ -20,6 +20,8 @@ namespace DelegateExamples
             
             Console.WriteLine(new string('-', 40));
             
+            CombineDelegates.Run();
+            
             Console.ReadLine();
         }
     }
