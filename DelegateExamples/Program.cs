@@ -29,6 +29,10 @@ namespace DelegateExamples
             Console.WriteLine(new string('-', 40));
             
             ManyOperationsInDelegate.Run();
+
+            Console.WriteLine(new string('-', 40));
+            
+            DelegateAsParameter.Run();
             
             Console.ReadLine();
         }
