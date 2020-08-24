@@ -33,6 +33,10 @@ namespace DelegateExamples
             Console.WriteLine(new string('-', 40));
             
             DelegateAsParameter.Run();
+
+            Console.WriteLine(new string('-', 40));
+            
+            GenericDelegate.Run();
             
             Console.ReadLine();
         }
