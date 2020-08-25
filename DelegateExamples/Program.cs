@@ -4,7 +4,7 @@ namespace DelegateExamples
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void BasicDelegateExamples()
         {
             Console.WriteLine(new string('-', 40));
             
@@ -37,6 +37,11 @@ namespace DelegateExamples
             Console.WriteLine(new string('-', 40));
             
             GenericDelegate.Run();
+        }
+        
+        static void Main(string[] args)
+        {
+            AccountExample.AccountExample.Run();
             
             Console.ReadLine();
         }
