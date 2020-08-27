@@ -1,4 +1,6 @@
 ﻿using System;
+using DelegateExamples.AccountExample;
+using DelegateExamples.ActionPredicateFunc;
 
 namespace DelegateExamples
 {
@@ -41,7 +43,14 @@ namespace DelegateExamples
         
         static void Main(string[] args)
         {
-            AccountExample.AccountExample.Run();
+            // 1
+            //BasicDelegateExamples();
+            
+            // 2
+            //AccountExample.AccountExample.Run();
+            
+            // 3
+            ActionExample.Run();
             
             Console.ReadLine();
         }
