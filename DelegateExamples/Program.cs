@@ -52,7 +52,10 @@ namespace DelegateExamples
             //ActionExample.Run();
             
             // 4
-            PredicateExample.Run();
+            //PredicateExample.Run();
+            
+            // 5
+            FuncExample.Run();
             
             Console.ReadLine();
         }
