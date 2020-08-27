@@ -55,7 +55,10 @@ namespace DelegateExamples
             //PredicateExample.Run();
             
             // 5
-            FuncExample.Run();
+            // FuncExample.Run();
+            
+            // 6
+            EventExample.EventExample.Run();
             
             Console.ReadLine();
         }
